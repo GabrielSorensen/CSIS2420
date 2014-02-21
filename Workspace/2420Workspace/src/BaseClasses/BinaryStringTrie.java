@@ -2,7 +2,7 @@ package BaseClasses;
 
 public class BinaryStringTrie {
 
-	private binaryStringNode root;
+	private BinaryStringNode root;
 	private String name;
 
 	public BinaryStringTrie () {
@@ -15,7 +15,7 @@ public class BinaryStringTrie {
 	}
 	public BinaryStringTrie (String name, String key) {
 		this.name = name;
-		this.root = new binaryStringNode(key);
+		this.root = new BinaryStringNode(key);
 	}
 	public boolean isEmpty() {
 		if (root == null) {
@@ -30,17 +30,17 @@ public class BinaryStringTrie {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public binaryStringNode getRoot() {
+	public BinaryStringNode getRoot() {
 		return root;
 	}
-	public void setRoot(binaryStringNode root) {
+	public void setRoot(BinaryStringNode root) {
 		this.root = root;
 	}
 	public void insertNode(String key) {
-		binaryStringNode n = new binaryStringNode(key);
+		BinaryStringNode n = new BinaryStringNode(key);
 		insertInTree(n, root);
 	}
-	private void insertInTree(binaryStringNode node, binaryStringNode parent) { //if parent is not known set as root
+	private void insertInTree(BinaryStringNode node, BinaryStringNode parent) { //if parent is not known set as root
 		if (isEmpty()) {
 			node = this.root;
 		}
@@ -73,7 +73,7 @@ public class BinaryStringTrie {
 	}
 	
 	//Kick ass algorithm to traverse tree
-	public void inOrderTraversal (binaryStringNode node) {
+	public void inOrderTraversal (BinaryStringNode node) {
 		if (node == null) {  //grounding condition
 			return;
 		}
