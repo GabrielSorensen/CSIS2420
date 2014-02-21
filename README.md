@@ -7,6 +7,6 @@ This Repository is a collection of files and other junk that I either wrote or u
 
 
 
-*********Feel free to email me and ask for any permissions you need to borrow and use whatever code here***************
+****Feel free to email me and ask for any permissions you need to borrow and use whatever code here****
 
 Email: gabriel.k.sorensen <at> gmail <dot> com
