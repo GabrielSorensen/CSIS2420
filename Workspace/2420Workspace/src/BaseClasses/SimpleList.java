@@ -119,7 +119,7 @@ public class SimpleList {
 		String r = new String();
 		String n = "\n"; 
 		if (isEmpty()) {
-			r +=this.name+" IS EMPTY!"+n;
+			r +=this.name+" IS EMPTY!";
 			return r;
 		}
 		r += this.name + " Contains :" +n;

@@ -78,7 +78,7 @@ public class BinaryStringTrie {
 			return;
 		}
 		inOrderTraversal(node.getLeft());
-		System.out.print(node.getKey() + " ");
+		System.out.print(node.getKey() + " \n");
 		inOrderTraversal(node.getRight());
 	}
 	
