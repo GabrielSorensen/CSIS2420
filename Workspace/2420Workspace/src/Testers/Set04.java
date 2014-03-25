@@ -28,7 +28,7 @@ public class Set04 {
 		}
 		
 		for (String s : set1) {
-//			System.out.println(s);
+			System.out.println(s);
 		}
 		System.out.println("Set1 has "+ set1.size() + " elements after iterator");
 		it = set2.iterator();
@@ -39,7 +39,7 @@ public class Set04 {
 		}
 		
 		for (String s : set1) {
-//			System.out.println(s);
+			System.out.println(s);
 		}
 		System.out.println("Set2 has "+ set2.size() + " elements after iterator");
 		
