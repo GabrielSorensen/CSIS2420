@@ -24,7 +24,8 @@ public class Utilities {
 			result = new String(b);
 		}
 		catch(Exception e){
-			System.out.println("ERROR");
+			System.err.println(e.getMessage());
+			System.err.println("ERROR");
 		}
 		return result;
 	}

@@ -1,25 +1,24 @@
 package Testers;
 
-//sets using hash tables:
-//No order, or a lack of order.
-
-import java.util.*;
-import java.io.*;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 import BaseClasses.Utilities;
 
 public class Set01 {
 
 	public static void main (String [] args) throws IOException {
-		
-		String [] wordArray = Utilities.fileToStringArray("./awmt.txt");
-		List<String> wordList = Arrays.asList(wordArray);
-		HashSet<String> hs = new HashSet<String>(wordList);
-		
-		for (String s : hs) {
-			System.out.println(s);
+		String [] WA = Utilities.fileToStringArray("./policy.txt");
+		ArrayList<String> AL = new ArrayList<String>();
+		for (String s : WA) {
+			AL.add(s);
 		}
-		System.out.println("Set has "+ hs.size() + " elements");
+		ArrayList<String> set01 = new ArrayList<String>();
+		ArrayList<String> set02 = new ArrayList<String>();
+		
 	}
-
 }
