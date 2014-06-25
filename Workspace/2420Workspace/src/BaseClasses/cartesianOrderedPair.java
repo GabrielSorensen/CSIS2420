@@ -1,4 +1,4 @@
-public static class cartesianCordinates implements Comparable<cartesianCordinates> {
+public class cartesianCordinates implements Comparable<cartesianCordinates> {
 
 		public int X;
 		public int Y;
@@ -17,19 +17,19 @@ public static class cartesianCordinates implements Comparable<cartesianCordinate
 		public int hashCode () {
 			return Y;
 		}
-		public setX (int x) {
+		public void setX (int x) {
 			this.X = x;
 		}
 		public int getX () {
 			return this.X;
 		}
-		public setY (int y) {
+		public void setY (int y) {
 			this.Y = y;
 		}
 		public int getY () {
 			return this.Y;
 		}
-		public setCords (int x, int y) {
+		public void setCords (int x, int y) {
 			this.X = x;
 			this.Y = y;
 		} 
